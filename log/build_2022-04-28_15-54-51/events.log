@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000206] (-) JobUnselected: {'identifier': 'tutorial_package'}
+[0.000731] (tutorial_topic) JobQueued: {'identifier': 'tutorial_topic', 'dependencies': OrderedDict()}
+[0.000840] (tutorial_topic) JobStarted: {'identifier': 'tutorial_topic'}
+[0.021170] (tutorial_topic) JobProgress: {'identifier': 'tutorial_topic', 'progress': 'cmake'}
+[0.022536] (tutorial_topic) Command: {'cmd': ['/usr/bin/cmake', '/home/fukumotoyuki/ros2_ws/src/tutorial_topic', '-DCMAKE_INSTALL_PREFIX=/home/fukumotoyuki/ros2_ws/src/install/tutorial_topic'], 'cwd': '/home/fukumotoyuki/ros2_ws/src/build/tutorial_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fukumotoyuki'), ('SSH_AGENT_PID', '1933'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fukumotoyuki'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/fukumotoyuki/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.66.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1755'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4573'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/fukumotoyuki/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fukumotoyuki'), ('JOURNAL_STREAM', '8:48219'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fukumotoyuki'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fukumotoyuki-dynabook-RZ73-VB:@/tmp/.ICE-unix/1971,unix/fukumotoyuki-dynabook-RZ73-VB:/tmp/.ICE-unix/1971'), ('INVOCATION_ID', 'c6778b033e6247d79d5ff448602a8b88'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ddaa4d9e3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fukumotoyuki/ros2_ws/install/tutorial_topic:/home/fukumotoyuki/ros2_ws/install/tutorial_package:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fukumotoyuki/ros2_ws/src/build/tutorial_topic'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/fukumotoyuki/ros2_ws/install/tutorial_topic:/home/fukumotoyuki/ros2_ws/install/tutorial_package:/opt/ros/foxy')]), 'shell': False}
+[0.098252] (-) TimerEvent: {}
+[0.118958] (tutorial_topic) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.193476] (tutorial_topic) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.198329] (-) TimerEvent: {}
+[0.204605] (tutorial_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.298449] (-) TimerEvent: {}
+[0.309315] (tutorial_topic) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.342319] (tutorial_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.398618] (-) TimerEvent: {}
+[0.463402] (tutorial_topic) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.498805] (-) TimerEvent: {}
+[0.500530] (tutorial_topic) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.513676] (tutorial_topic) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.525834] (tutorial_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.599075] (-) TimerEvent: {}
+[0.700188] (-) TimerEvent: {}
+[0.777533] (tutorial_topic) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.779168] (tutorial_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.800265] (-) TimerEvent: {}
+[0.900710] (-) TimerEvent: {}
+[0.957020] (tutorial_topic) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.973593] (tutorial_topic) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.974252] (tutorial_topic) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.000762] (-) TimerEvent: {}
+[1.001965] (tutorial_topic) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.067180] (tutorial_topic) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.067474] (tutorial_topic) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.100865] (-) TimerEvent: {}
+[1.201223] (-) TimerEvent: {}
+[1.301579] (-) TimerEvent: {}
+[1.402145] (-) TimerEvent: {}
+[1.502745] (-) TimerEvent: {}
+[1.565283] (tutorial_topic) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.602903] (-) TimerEvent: {}
+[1.647864] (tutorial_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.658300] (tutorial_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.703047] (-) TimerEvent: {}
+[1.786244] (tutorial_topic) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.803189] (-) TimerEvent: {}
+[1.847990] (tutorial_topic) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.903373] (-) TimerEvent: {}
+[1.983968] (tutorial_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.003506] (-) TimerEvent: {}
+[2.081364] (tutorial_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.084749] (tutorial_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.087240] (tutorial_topic) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.103609] (-) TimerEvent: {}
+[2.191776] (tutorial_topic) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.192102] (tutorial_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.203730] (-) TimerEvent: {}
+[2.304044] (-) TimerEvent: {}
+[2.348758] (tutorial_topic) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.349244] (tutorial_topic) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.404165] (-) TimerEvent: {}
+[2.426193] (tutorial_topic) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.426442] (tutorial_topic) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.504266] (-) TimerEvent: {}
+[2.551756] (tutorial_topic) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.553525] (tutorial_topic) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.604385] (-) TimerEvent: {}
+[2.704752] (-) TimerEvent: {}
+[2.805112] (-) TimerEvent: {}
+[2.905491] (-) TimerEvent: {}
+[2.928181] (tutorial_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.952947] (tutorial_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[2.956342] (tutorial_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/fukumotoyuki/ros2_ws/src/build/tutorial_topic\n'}
+[2.966359] (tutorial_topic) CommandEnded: {'returncode': 0}
+[2.967381] (tutorial_topic) JobProgress: {'identifier': 'tutorial_topic', 'progress': 'build'}
+[2.971177] (tutorial_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fukumotoyuki/ros2_ws/src/build/tutorial_topic', '--', '-j4', '-l4'], 'cwd': '/home/fukumotoyuki/ros2_ws/src/build/tutorial_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fukumotoyuki'), ('SSH_AGENT_PID', '1933'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fukumotoyuki'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/fukumotoyuki/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.66.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1755'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4573'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/fukumotoyuki/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fukumotoyuki'), ('JOURNAL_STREAM', '8:48219'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fukumotoyuki'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fukumotoyuki-dynabook-RZ73-VB:@/tmp/.ICE-unix/1971,unix/fukumotoyuki-dynabook-RZ73-VB:/tmp/.ICE-unix/1971'), ('INVOCATION_ID', 'c6778b033e6247d79d5ff448602a8b88'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ddaa4d9e3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fukumotoyuki/ros2_ws/install/tutorial_topic:/home/fukumotoyuki/ros2_ws/install/tutorial_package:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fukumotoyuki/ros2_ws/src/build/tutorial_topic'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/fukumotoyuki/ros2_ws/install/tutorial_topic:/home/fukumotoyuki/ros2_ws/install/tutorial_package:/opt/ros/foxy')]), 'shell': False}
+[3.005643] (-) TimerEvent: {}
+[3.029841] (tutorial_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscriber\x1b[0m\n'}
+[3.030701] (tutorial_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publisher\x1b[0m\n'}
+[3.106734] (-) TimerEvent: {}
+[3.171075] (tutorial_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[3.173794] (tutorial_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[3.208247] (-) TimerEvent: {}
+[3.308622] (-) TimerEvent: {}
+[3.409026] (-) TimerEvent: {}
+[3.510063] (-) TimerEvent: {}
+[3.611094] (-) TimerEvent: {}
+[3.711478] (-) TimerEvent: {}
+[3.811861] (-) TimerEvent: {}
+[3.912215] (-) TimerEvent: {}
+[4.012566] (-) TimerEvent: {}
+[4.112933] (-) TimerEvent: {}
+[4.213298] (-) TimerEvent: {}
+[4.313662] (-) TimerEvent: {}
+[4.414062] (-) TimerEvent: {}
+[4.514508] (-) TimerEvent: {}
+[4.614980] (-) TimerEvent: {}
+[4.715848] (-) TimerEvent: {}
+[4.816311] (-) TimerEvent: {}
+[4.916771] (-) TimerEvent: {}
+[5.017346] (-) TimerEvent: {}
+[5.118243] (-) TimerEvent: {}
+[5.218976] (-) TimerEvent: {}
+[5.319812] (-) TimerEvent: {}
+[5.420192] (-) TimerEvent: {}
+[5.520558] (-) TimerEvent: {}
+[5.620929] (-) TimerEvent: {}
+[5.721308] (-) TimerEvent: {}
+[5.821705] (-) TimerEvent: {}
+[5.923666] (-) TimerEvent: {}
+[6.024179] (-) TimerEvent: {}
+[6.124577] (-) TimerEvent: {}
+[6.224948] (-) TimerEvent: {}
+[6.325332] (-) TimerEvent: {}
+[6.427698] (-) TimerEvent: {}
+[6.529393] (-) TimerEvent: {}
+[6.629773] (-) TimerEvent: {}
+[6.730163] (-) TimerEvent: {}
+[6.830541] (-) TimerEvent: {}
+[6.930931] (-) TimerEvent: {}
+[7.031299] (-) TimerEvent: {}
+[7.131677] (-) TimerEvent: {}
+[7.241598] (-) TimerEvent: {}
+[7.341982] (-) TimerEvent: {}
+[7.442363] (-) TimerEvent: {}
+[7.542728] (-) TimerEvent: {}
+[7.643087] (-) TimerEvent: {}
+[7.744780] (-) TimerEvent: {}
+[7.845188] (-) TimerEvent: {}
+[7.951562] (-) TimerEvent: {}
+[8.056112] (-) TimerEvent: {}
+[8.159460] (-) TimerEvent: {}
+[8.260371] (-) TimerEvent: {}
+[8.361175] (-) TimerEvent: {}
+[8.461568] (-) TimerEvent: {}
+[8.561947] (-) TimerEvent: {}
+[8.662332] (-) TimerEvent: {}
+[8.762707] (-) TimerEvent: {}
+[8.863084] (-) TimerEvent: {}
+[8.963468] (-) TimerEvent: {}
+[9.063844] (-) TimerEvent: {}
+[9.164224] (-) TimerEvent: {}
+[9.264579] (-) TimerEvent: {}
+[9.364985] (-) TimerEvent: {}
+[9.465394] (-) TimerEvent: {}
+[9.565764] (-) TimerEvent: {}
+[9.638664] (tutorial_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[9.665884] (-) TimerEvent: {}
+[9.766268] (-) TimerEvent: {}
+[9.866627] (-) TimerEvent: {}
+[9.966980] (-) TimerEvent: {}
+[10.046951] (tutorial_topic) StdoutLine: {'line': b'[ 75%] Built target publisher\n'}
+[10.067111] (-) TimerEvent: {}
+[10.167434] (-) TimerEvent: {}
+[10.267787] (-) TimerEvent: {}
+[10.368133] (-) TimerEvent: {}
+[10.468492] (-) TimerEvent: {}
+[10.568803] (-) TimerEvent: {}
+[10.669137] (-) TimerEvent: {}
+[10.769467] (-) TimerEvent: {}
+[10.869796] (-) TimerEvent: {}
+[10.970142] (-) TimerEvent: {}
+[11.070481] (-) TimerEvent: {}
+[11.170784] (-) TimerEvent: {}
+[11.271150] (-) TimerEvent: {}
+[11.371587] (-) TimerEvent: {}
+[11.472042] (-) TimerEvent: {}
+[11.572560] (-) TimerEvent: {}
+[11.673289] (-) TimerEvent: {}
+[11.773828] (-) TimerEvent: {}
+[11.874256] (-) TimerEvent: {}
+[11.974589] (-) TimerEvent: {}
+[12.074905] (-) TimerEvent: {}
+[12.175215] (-) TimerEvent: {}
+[12.275555] (-) TimerEvent: {}
+[12.375889] (-) TimerEvent: {}
+[12.476214] (-) TimerEvent: {}
+[12.576547] (-) TimerEvent: {}
+[12.676895] (-) TimerEvent: {}
+[12.777206] (-) TimerEvent: {}
+[12.877519] (-) TimerEvent: {}
+[12.935495] (tutorial_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[12.977639] (-) TimerEvent: {}
+[13.077967] (-) TimerEvent: {}
+[13.178276] (-) TimerEvent: {}
+[13.278624] (-) TimerEvent: {}
+[13.378922] (-) TimerEvent: {}
+[13.436089] (tutorial_topic) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[13.455143] (tutorial_topic) CommandEnded: {'returncode': 0}
+[13.479096] (-) TimerEvent: {}
+[13.485917] (tutorial_topic) JobProgress: {'identifier': 'tutorial_topic', 'progress': 'install'}
+[13.521621] (tutorial_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fukumotoyuki/ros2_ws/src/build/tutorial_topic'], 'cwd': '/home/fukumotoyuki/ros2_ws/src/build/tutorial_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fukumotoyuki'), ('SSH_AGENT_PID', '1933'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/fukumotoyuki'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/fukumotoyuki/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.66.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1755'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4573'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/fukumotoyuki/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'fukumotoyuki'), ('JOURNAL_STREAM', '8:48219'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fukumotoyuki'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fukumotoyuki-dynabook-RZ73-VB:@/tmp/.ICE-unix/1971,unix/fukumotoyuki-dynabook-RZ73-VB:/tmp/.ICE-unix/1971'), ('INVOCATION_ID', 'c6778b033e6247d79d5ff448602a8b88'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ddaa4d9e3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fukumotoyuki/ros2_ws/install/tutorial_topic:/home/fukumotoyuki/ros2_ws/install/tutorial_package:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fukumotoyuki/ros2_ws/src/build/tutorial_topic'), ('LC_ALL', 'ja_JP.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/fukumotoyuki/ros2_ws/install/tutorial_topic:/home/fukumotoyuki/ros2_ws/install/tutorial_package:/opt/ros/foxy')]), 'shell': False}
+[13.542303] (tutorial_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.543005] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/lib/tutorial_topic/publisher\n'}
+[13.543943] (tutorial_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/lib/tutorial_topic/publisher" to ""\n'}
+[13.544240] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/lib/tutorial_topic/subscriber\n'}
+[13.546742] (tutorial_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/lib/tutorial_topic/subscriber" to ""\n'}
+[13.547028] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/ament_index/resource_index/package_run_dependencies/tutorial_topic\n'}
+[13.547247] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/ament_index/resource_index/parent_prefix_path/tutorial_topic\n'}
+[13.547601] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.sh\n'}
+[13.547841] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/tutorial_topic/environment/ament_prefix_path.dsv\n'}
+[13.548040] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/tutorial_topic/environment/path.sh\n'}
+[13.548170] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/tutorial_topic/environment/path.dsv\n'}
+[13.548311] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/tutorial_topic/local_setup.bash\n'}
+[13.548495] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/tutorial_topic/local_setup.sh\n'}
+[13.548717] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/tutorial_topic/local_setup.zsh\n'}
+[13.548907] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/tutorial_topic/local_setup.dsv\n'}
+[13.549105] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/tutorial_topic/package.dsv\n'}
+[13.549345] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/ament_index/resource_index/packages/tutorial_topic\n'}
+[13.549581] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig.cmake\n'}
+[13.549800] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/tutorial_topic/cmake/tutorial_topicConfig-version.cmake\n'}
+[13.549957] (tutorial_topic) StdoutLine: {'line': b'-- Installing: /home/fukumotoyuki/ros2_ws/src/install/tutorial_topic/share/tutorial_topic/package.xml\n'}
+[13.552195] (tutorial_topic) CommandEnded: {'returncode': 0}
+[13.579269] (-) TimerEvent: {}
+[13.643686] (tutorial_topic) JobEnded: {'identifier': 'tutorial_topic', 'rc': 0}
+[13.644945] (-) EventReactorShutdown: {}
